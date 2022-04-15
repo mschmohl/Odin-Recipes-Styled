@@ -1,0 +1,239 @@
+/* ==============RESET CSS============== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ==============BASE STYLE============== */
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 20px;
+    background-color: #000;
+}
+#background-image {
+    background-image: url(recipes/images/brooke-lark-08bOYnH_r_E-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#odin {
+    height: 30%;
+    position: absolute;
+    right: 0;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    font-family: 'Bokor', cursive;
+    font-size: 3em;
+}
+.body {
+    font-family: 'Bokor', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    line-height: 2.5em;
+    list-style-type: none;
+    top: -50px;
+}
+li {
+    color: #ae2012;
+}
+.category {
+    margin-left: 50%;
+}
+a {
+    color: #ae2012; 
+}
+a:hover {
+    color: #ee9b00;
+    font-size: larger;
+    filter: drop-shadow(0 0 0.75rem #ae2012);
+  }
+  /* Selects any <a> that has been visited */
+a:visited {
+    color: #9c6644;
+  }
+.recipe-link {
+    margin-left: 55%;
+    list-style-type: georgian;
+}
+footer {
+    height: 100px;
+    background-color: #000;
+    margin-top: 40px;
+}
+#projectBy {
+    color: #fff;
+    font-size: 10px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+#odin-project {
+    height: 40px;
+    width: auto;
+    margin-top: 15px;
+}
+#footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+/* ==============RECIPE PAGES============== */
+#recipe-card {
+    background-color: #fefae0;
+    margin: 10px 30px 30px 10px;
+    padding: 1%;
+    border-radius: 4px;
+    filter: drop-shadow(8px -8px .5rem #adb5bd);
+}
+.title {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Bokor', cursive;
+    font-size: 2em;
+}
+.photo {
+    width: 300px;
+    height: auto;
+    margin: 0 30px 20px 20px;
+    border: 8px solid white;
+    filter: drop-shadow(4px -4px .3rem #adb5bd);
+    float: left;
+}
+.quote {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    text-align: justify;
+    padding: 0 30px 0 30px;
+}
+.flexbox .flexbox-two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 200px;
+}
+blockquote {
+    border:none;
+    font-family: 'EB Garamond', serif;
+    line-height: 35px;
+    /* margin-bottom:-30px; */
+    quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote .quote {
+font-size:25px;
+font-family: 'EB Garamond', serif;
+color: #adb5bd;
+margin-top: 2em;
+}
+blockquote .quote:before { 
+content: open-quote;
+font-weight: bold;
+font-size:100px;
+color:#bc6c25;
+float: left;
+margin-top: -10px;
+margin-right: 10px;
+} 
+/* blockquote .quote:after { 
+content: close-quote;
+font-weight: bold;
+font-size:100px;
+color:#bc6c25;
+float: right; 
+margin-top: 40px;
+} */
+#space {
+    height: 40px;
+}
+h2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 2em;
+    margin: 15px 15px 20px 20px;
+}
+.ingredients:nth-of-type(1) {
+    font-family: 'Outfit', sans-serif;
+    /* text-align: center; */
+    margin-left: 500px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.ingredient-item {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5em;
+    line-height: 2em;
+    margin-left: 35%;
+    position: relative;
+    list-style-type:square;
+}
+p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    /* margin-left: 20px; 
+    margin-bottom: 30px; */
+    margin: 30px 0 30px 20px;
+}
+.step {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.25em;
+    text-align: center;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #ffbe0b;
+    margin: 15px;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
